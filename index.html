@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<html class='dark'>
+
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/micss.css">
+  <link rel="stylesheet" href="css/scrollup.css">
+  <link rel="stylesheet" href="css/paper.min.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Hola</title>
+</head>
+<body>
+  <div class="paper container">
+    <h2>Mini Sitio de Santiago Olavarria</h2>
+    <div class="cuerpo1">
+
+
+      <a name="arriba"></a>
+      <h2>Entregas en tiempo de cuarentena</h2>
+      <a href="#qns">
+      <input type="button" class="paper-btn btn-primary-outline" value="Quién Soy"/></a>
+  <a href="#pro">    <input type="button" class="btn-secondary-outline" value="Processing"/></a>
+    <a href="#cir">  <button class="btn-success-outline">Circulo Cromático</button></a>
+      <a href="#lap"><button class="btn-warning-outline">Lapiz Funcional</button></a>
+      <a href="#cre" class="paper-btn btn-danger-outline">Creditos</a>
+      <div class="row">
+        <div class="six colums">
+
+
+
+          <h2>¿Quién soy?</h2>
+          <a name="qns">
+          <img src="imgs/yo.jpg" alt="yo"></a>
+          <p>Santiago Iñaki Olavarría nacido en el año 1996
+            en la ciudad de La Plata actualmente estudiando
+            la carrera de Diseño Multimedial en la Facultad
+            de Artes de la UNLP.
+            Actualmente estoy la mayor parte
+            del tiempo en la computadora ya sea jugando, dibujando
+            o practicando programación.</p>
+
+
+
+          </div>
+
+
+          <div class="four columns">
+
+            <div class="col">
+              <h1>Processing</h1>
+              <a name="pro"></a>
+              <a href="imgs/proce.png" data-lightbox="image-1" data-title="My caption"><img src="imgs/proce.png" alt="proce"class="no-border"></a>
+
+              <p>Processing es un lenguaje de programación y entorno de desarrollo integrado de código abierto basado en Java, de fácil utilización, y que sirve como medio para la enseñanza y producción de proyectos multimedia e interactivos de diseño digital.</p>
+              <p>Durante el año se estuvo trabajando con esta herramienta y se entregaron distintos trabajos, a continuación se mostraran algunos ejemplos junto a su código.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="row">
+        <div class="collapsible">
+          <input id="collapsible5" type="radio" name="collapsible">
+          <a name="cir"></a>
+          <label for="collapsible5">Trabajo Cromático</label>
+          <div class="collapsible-body">
+            <a href="imgs/croma.png" data-lightbox="image-1" data-title="Círculo Cromático"><img src="imgs/croma.png" alt="proce"class="no-border"></a>
+            <span><html><body><pre>
+              &nbsp;<span style="color: #33997E;">void</span> <span style="color: #006699;"><b>setup</b></span> () {
+                &nbsp;&nbsp;<span style="color: #006699;">size</span> (200,200);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;
+              }
+              <span style="color: #33997E;">void</span> <span style="color: #006699;"><b>draw</b></span>(){
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(255,0,0);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(30,30,30,30);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(220,78, 143);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(30,60,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(110, 20, 142);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(30,90,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(68, 60, 117);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(30,120,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(20, 24, 183);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(30,150,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(37, 81, 122);
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(60,150,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(3,168, 155);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(90,150,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(3, 168,35);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(120,150,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(170, 168, 18);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(150,150,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(255,247,20);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(150,120,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(215,146,56);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(150,90,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(255,162,22);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(150,60,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(174,68,0);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(150,30,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(190,70,70);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(120,30,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(200,40,10);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(90,30,30,30);
+                &nbsp;&nbsp;<span style="color: #006699;">fill</span>(230,60,15);
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(60,30,30,30);
+                &nbsp;&nbsp;
+                &nbsp;
+                &nbsp;&nbsp;
+              }
+
+            </span>
+          </div>
+        </div>
+        <div class="collapsible">
+          <input id="collapsible7" type="radio" name="collapsible">
+          <a name="lap"></a>
+          <label for="collapsible7">Trabajo Lápiz</label>
+          <div class="collapsible-body">
+            <a href="imgs/lapiz.png" data-lightbox="image-1" data-title="Lapiz en Processing"><img src="imgs/lapiz.png" alt="proce"class="no-border"></a>
+            <span><html><body><pre>
+              Lapiz&nbsp;lapiz;
+
+              <span style="color: #33997E;">void</span> <span style="color: #006699;"><b>setup</b></span>(){
+                &nbsp;&nbsp;<span style="color: #006699;">size</span>( 400, 400 );
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;lapiz&nbsp;=&nbsp;<span style="color: #33997E;">new</span> Lapiz( 3 );
+                &nbsp;&nbsp;
+              }
+
+              <span style="color: #33997E;">void</span> <span style="color: #006699;"><b>draw</b></span>(){
+                &nbsp;&nbsp;lapiz.visualizar();
+              }
+
+              <span style="color: #33997E;">void</span> <span style="color: #006699;"><b>mouseDragged</b></span>(){
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;lapiz.dibujar();
+              }
+
+              <span style="color: #33997E;">void</span> <span style="color: #006699;"><b>keyPressed</b></span>(){
+                &nbsp;&nbsp;lapiz.cambiarColor();
+                &nbsp;&nbsp;lapiz.aumentarGrosor();
+                &nbsp;&nbsp;lapiz.disminuirGrosor();
+              }
+              <span style="color: #33997E;">class</span> Lapiz{
+
+                <span style="color: #666666;">//VARIABLES&nbsp;LOCALES</span>
+                &nbsp;&nbsp;<span style="color: #E2661A;">float</span> grosor;
+                &nbsp;&nbsp;<span style="color: #E2661A;">color</span> colorcito;
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;<span style="color: #666666;">//constructor</span>
+                &nbsp;&nbsp;Lapiz(&nbsp;<span style="color: #E2661A;">float</span> g ){
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #666666;">//inicializar las variables</span>
+                  &nbsp;&nbsp;&nbsp;&nbsp;colorcito&nbsp;=&nbsp;<span style="color: #006699;">color</span>(0);
+                  &nbsp;&nbsp;&nbsp;&nbsp;grosor&nbsp;=&nbsp;g;
+                  &nbsp;&nbsp;}
+                  &nbsp;&nbsp;
+                  <span style="color: #666666;">//FUNCIONES&nbsp;LOCALES</span>
+                  &nbsp;&nbsp;<span style="color: #33997E;">void</span> dibujar(){
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">stroke</span>( colorcito );
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">strokeWeight</span>( grosor );
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">line</span>( <span style="color: #D94A7A;">pmouseX</span>, <span style="color: #D94A7A;">pmouseY</span>, <span style="color: #D94A7A;">mouseX</span>, <span style="color: #D94A7A;">mouseY</span> );
+                    &nbsp;&nbsp;}
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;<span style="color: #33997E;">void</span> visualizar(){  <span style="color: #666666;">//muestro en pantalla color y grosor seleccionado</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">noStroke</span>();
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">fill</span>( 255 );
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">rect</span>( 0, 0, 50, 50 );
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">fill</span>( colorcito );
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>( 25, 25, grosor, grosor);
+                    &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;}
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;<span style="color: #33997E;">void</span> cambiarColor(){
+                      &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #669900;">if</span>( <span style="color: #D94A7A;">key</span> == <span style="color: #7D4793;">&apos;r&apos;</span> )
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colorcito&nbsp;=&nbsp;<span style="color: #006699;">color</span>(255, 0, 0 );
+                      &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #669900;">if</span>( <span style="color: #D94A7A;">key</span> == <span style="color: #7D4793;">&apos;g&apos;</span> )
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colorcito&nbsp;=&nbsp;<span style="color: #006699;">color</span>(0, 255, 0 );
+                      &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #669900;">if</span>( <span style="color: #D94A7A;">key</span> == <span style="color: #7D4793;">&apos;b&apos;</span> )
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colorcito&nbsp;=&nbsp;<span style="color: #006699;">color</span>(0, 0, 255 );
+                      &nbsp;&nbsp;}
+                      &nbsp;&nbsp;
+                      &nbsp;&nbsp;<span style="color: #33997E;">void</span> aumentarGrosor(){
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #669900;">if</span>( <span style="color: #D94A7A;">key</span> == <span style="color: #7D4793;">&apos;+&apos;</span> ){
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;grosor++;
+                          &nbsp;&nbsp;&nbsp;&nbsp;}
+                          &nbsp;&nbsp;}
+                          &nbsp;&nbsp;<span style="color: #33997E;">void</span> disminuirGrosor(){
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #669900;">if</span>( <span style="color: #D94A7A;">key</span> == <span style="color: #7D4793;">&apos;-&apos;</span> ){
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;grosor--;
+                              &nbsp;&nbsp;&nbsp;&nbsp;}
+                              &nbsp;&nbsp;}
+                            }
+
+                          </pre></body></html></span>
+                        </div>
+
+                      </div>
+
+                    </div>
+                    <footer>
+                      <a name="cre"></a>
+                      <div class="card" style="width: 20rem;">
+                        <div class="card-body">
+                          <a ="cre"></a>
+                          <h4 class="card-title">Muchas gracias por pasarte por mi web!</h4>
+                          <h5 class="card-subtitle">Correo electrónico:</h5>
+                          <p class="card-text">santiolavarria6@gmail.com</p>
+                        </div>
+                        <img class="image-bottom" src="imgs/gracias.gif" alt="Card example image">
+                      </div></a></p>
+                    </footer>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <a href="#up" class="simplescrollup__button simplescrollup__button--hide">
+                <img src="imgs/arriba.png" alt="arriba">
+              </a>
+              <script src="js/lightbox-plus-jquery.js"></script>
+              <script src="js/simplescrollup.js"></script>
+
+            </body>
+            </html>

@@ -1,0 +1,112 @@
+body, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../imgs/images.jpg);
+  background-size: contain;
+  font-family: 'Electronica', monospace;
+  font-size: 15px;
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 42px;
+}
+.contenedor {
+  width: 75%;
+  margin: 0 auto;
+  background-image: ;
+  border: 4px solid blue;
+  overflow: hidden;
+}
+.cabeza {
+
+  background-color: gray;
+  padding: 5px;
+}
+
+.cuerpo1 {
+  padding: 30px;
+  color: white;
+  background-color:black;
+}
+.cuerpo2 {
+  background: black;
+  padding: 2px;
+  overflow: hidden;
+  color: white
+}
+.cuerpo3 {
+  background: orange;
+  padding: 20px;
+  overflow: hidden;
+  color: white
+  }
+  .cuerpo4 {
+    background: purple;
+    padding: 20px;
+    overflow: hidden;
+    color: white
+}
+.cuerpo5 {
+  background: gray;
+  padding: 20px;
+  overflow: hidden;
+  color: white
+}
+.cuerpo6 {
+  background: black;
+  padding: 20px;
+  overflow: hidden;
+  color: white
+}
+.cuerpo7 {
+  background: green;
+  padding: 20px;
+  overflow: hidden;
+  color: white
+}
+.cuerpo8 {
+  background:blue;
+  padding: 20px;
+  overflow: hidden;
+  color: white
+}
+.cuerpo9 {
+  background:black;
+  padding: 20px;
+  overflow: hidden;
+  color: white
+}
+.col {
+  float: left;
+  width: 46%;
+  padding: 10px;
+}
+.pie {
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+}
+.menu {
+  float right;
+  display: inline-block;
+  padding: 10px;
+
+  background-color: white;
+}
+
+}
+.txt-des {
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+}
+.txt-jus {
+  text-align: justify;
+}
+.img-res {
+  width: 100%;
+  height: auto;
+}
